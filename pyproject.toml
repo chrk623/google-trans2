@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "google-trans2"
+version = "0.1.0"
+description = " free and unlimited Python API for Google Translate."
+authors = ["Charco Hui <charco.hui@auckland.ac.nz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+loguru = "^0.7.2"
+urllib3 = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
